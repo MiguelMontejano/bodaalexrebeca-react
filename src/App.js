@@ -1,23 +1,41 @@
-import logo from './logo.svg';
+
 import './App.css';
+
+//theme
+import "primereact/resources/themes/lara-light-indigo/theme.css";     
+//core
+import "primereact/resources/primereact.min.css";
+//icons
+import "primeicons/primeicons.css"; 
+//flex
+import '/node_modules/primeflex/primeflex.css'
+
+//animate css
+import "animate.css/animate.min.css";
+
+import { Header } from './components/header/header';
+import { Home } from './components/home-component/home';
+import { LugarCeremonia } from './components/lugar-ceremonia/LugarCeremonia';
+import { ConfirmarAsistencia } from './components/confirmar-asistencia/ConfirmarAsistencia';
+import { Galeria } from './components/galeria/Galeria';
+
+import cisne from './assets/imgs/cisne.jpg';
+import bici from './assets/imgs/bici.jpeg';
+import logo from './assets/imgs/logo.png';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App flex flex-column align-items-center gap-3">
+      <img src={logo} className="w-3" alt=""/>
+      <Home />
+      <img src={bici} className="w-9" alt=""/>
+      <AnimationOnScroll animateIn='animate__slideInLeft' delay={200} animateOnce={true} animatePreScroll={false}>
+        <LugarCeremonia />
+      </AnimationOnScroll>
+      <img src={cisne} className="w-9" alt=""/>
+      <ConfirmarAsistencia />
+      <Galeria />
     </div>
   );
 }

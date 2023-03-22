@@ -1,0 +1,51 @@
+.homeContainer {
+
+}
+
+.countDownContainer {
+    font-family: 'Great Vibes', cursive;
+    font-size: 7vw;
+}
+
+.countDownNumbersContainer, .parrafoContainer{
+    /* background-color: var(--transparency-grey); */
+    font-family: 'Great Vibes', cursive;
+}
+
+.countDownNumbersContainer {
+    width: 6vw;
+    height: 9vh;
+}
+
+.parrafoContainer {
+    font-size: 3vw;
+    text-align: center;
+}
+
+.startBtn {
+    background-color: var(--details-color);
+    font-size: 2.5vw;
+}
+
+@media only screen and (min-width: 768px) {
+    .countDownContainer {
+        font-family: 'Great Vibes', cursive;
+        font-size: 6vw;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .countDownContainer {
+        font-family: 'Great Vibes', cursive;
+        font-size: 5vw;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .countDownContainer {
+        font-family: 'Great Vibes', cursive;
+        font-size: 5vw;
+    }
+}

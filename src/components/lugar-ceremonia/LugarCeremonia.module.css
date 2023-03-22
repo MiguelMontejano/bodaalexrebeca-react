@@ -1,0 +1,88 @@
+.lugarCeremoniaContainer {
+    font-family: 'Great Vibes', cursive;
+
+}
+
+.verMapaContainer {
+    background-color: var(--total-black);
+    color: var(--total-white);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease 1s;
+    font-size: 8vw;
+}
+
+.verMapaContainer:hover {
+    background-color: var(--details-color);
+}
+
+.LugarText {
+    font-size: 12vw !important;
+}
+
+.FincaText {
+    font-size: 7vw !important;
+}
+
+.HoraText {
+    font-size: 8vw !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .verMapaContainer {
+        font-size: 3vw;
+    }
+
+    .LugarText {
+        font-size: 4vw !important;
+    }
+    
+    .FincaText {
+        font-size: 3vw !important;
+    
+    }
+    
+    .HoraText {
+        font-size: 3vw !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .verMapaContainer {
+        font-size: 3vw;
+    }
+
+    .LugarText {
+        font-size: 4vw !important;
+    }
+    
+    .FincaText {
+        font-size: 3vw !important;
+    
+    }
+    
+    .HoraText {
+        font-size: 3vw !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .verMapaContainer {
+        font-size: 3vw;
+    }
+
+    .LugarText {
+        font-size: 4vw !important;
+    }
+    
+    .FincaText {
+        font-size: 3vw !important;
+    
+    }
+    
+    .HoraText {
+        font-size: 3vw !important;
+    }
+}

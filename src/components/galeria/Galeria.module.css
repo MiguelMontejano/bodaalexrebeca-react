@@ -1,0 +1,28 @@
+.sectionTitle {
+    font-size: 12vw !important;
+}
+
+.legendCarousel {
+    transform: translateY(100%);
+    font-size: 4vw !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .legendCarousel {
+        font-size: 2vw !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .legendCarousel {
+        font-size: 2vw !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .legendCarousel {
+        font-size: 2vw !important;
+    }
+}
