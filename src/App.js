@@ -21,20 +21,22 @@ import { Galeria } from './components/galeria/Galeria';
 
 import cisne from './assets/imgs/cisne.jpg';
 import bici from './assets/imgs/bici.jpeg';
-import logo from './assets/imgs/logo.png';
+import logo from './assets/imgs/logo-mio.png';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 function App() {
   return (
     <div className="App flex flex-column align-items-center gap-3">
-      <img src={logo} className="w-3" alt=""/>
+      <img src={logo} className="w-3 mt-3" alt=""/>
       <Home />
       <img src={bici} className="w-9" alt=""/>
       <AnimationOnScroll animateIn='animate__slideInLeft' delay={200} animateOnce={true} animatePreScroll={false}>
         <LugarCeremonia />
       </AnimationOnScroll>
       <img src={cisne} className="w-9" alt=""/>
-      <ConfirmarAsistencia />
+      <AnimationOnScroll animateIn='animate__slideInLeft' delay={200} animateOnce={true} animatePreScroll={false} >
+        <ConfirmarAsistencia />
+      </AnimationOnScroll>
       <Galeria />
     </div>
   );

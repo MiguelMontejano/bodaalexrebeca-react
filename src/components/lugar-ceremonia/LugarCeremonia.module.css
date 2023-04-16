@@ -30,20 +30,20 @@
 
 @media only screen and (min-width: 768px) {
     .verMapaContainer {
-        font-size: 3vw;
+        font-size: 6vw;
     }
 
     .LugarText {
-        font-size: 4vw !important;
+        font-size: 7vw !important;
     }
     
     .FincaText {
-        font-size: 3vw !important;
+        font-size: 4vw !important;
     
     }
     
     .HoraText {
-        font-size: 3vw !important;
+        font-size: 4vw !important;
     }
 }
 

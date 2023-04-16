@@ -7,12 +7,15 @@ export function Home() {
 
         } else {
             return (
-                <div className={`w-full flex flex-row align-items-center justify-content-center gap-5 ${styles.countDownContainer}`}>
-                    <div className={`flex flex-column align-items-center`}><div className={`flex flex-row align-items-center justify-content-center ${styles.countDownNumbersContainer}`}>{days}</div> <div>dias</div></div>
-                    <div className={`flex flex-column align-items-center`}><div className={`flex flex-row align-items-center justify-content-center ${styles.countDownNumbersContainer}`}>{hours}</div> <div>horas</div></div>
-                    <div className={`flex flex-column align-items-center`}><div className={`flex flex-row align-items-center justify-content-center ${styles.countDownNumbersContainer}`}>{minutes}</div> <div>minutos</div></div>
-                    <div className={`flex flex-column align-items-center`}><div className={`flex flex-row align-items-center justify-content-center ${styles.countDownNumbersContainer}`}>{seconds}</div> <div>segundos</div></div>
-                </div>
+                <>
+                    <div className={`text-center ${styles.titleText}`} >¡Nos casamos en!</div>
+                    <div className={`w-full flex flex-row align-items-center justify-content-center gap-5 ${styles.countDownContainer}`}>
+                        <div className={`flex flex-column align-items-center`}><div className={`flex flex-row align-items-center justify-content-center ${styles.countDownNumbersContainer}`}>{days}</div> <div>dias</div></div>
+                        <div className={`flex flex-column align-items-center`}><div className={`flex flex-row align-items-center justify-content-center ${styles.countDownNumbersContainer}`}>{hours}</div> <div>horas</div></div>
+                        <div className={`flex flex-column align-items-center`}><div className={`flex flex-row align-items-center justify-content-center ${styles.countDownNumbersContainer}`}>{minutes}</div> <div>minutos</div></div>
+                        <div className={`flex flex-column align-items-center`}><div className={`flex flex-row align-items-center justify-content-center ${styles.countDownNumbersContainer}`}>{seconds}</div> <div>segundos</div></div>
+                    </div>
+                </>
             )
         }
     }

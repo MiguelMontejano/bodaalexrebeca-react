@@ -12,6 +12,11 @@
     font-family: 'Great Vibes', cursive;
 }
 
+.titleText {
+    font-size: 8vw;
+    margin-bottom: 3vw;
+}
+
 .countDownNumbersContainer {
     width: 6vw;
     height: 9vh;
@@ -28,6 +33,10 @@
 }
 
 @media only screen and (min-width: 768px) {
+    .titleText {
+        
+    }
+
     .countDownContainer {
         font-family: 'Great Vibes', cursive;
         font-size: 6vw;
@@ -36,6 +45,10 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .titleText {
+        
+    }
+
     .countDownContainer {
         font-family: 'Great Vibes', cursive;
         font-size: 5vw;
@@ -44,8 +57,12 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    .titleText {
+        font-size: 5vw;
+    }
+
     .countDownContainer {
         font-family: 'Great Vibes', cursive;
-        font-size: 5vw;
+        font-size: 3.6vw;
     }
 }

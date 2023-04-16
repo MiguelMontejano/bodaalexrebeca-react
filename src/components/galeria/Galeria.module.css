@@ -8,6 +8,10 @@
 }
 
 @media only screen and (min-width: 768px) {
+    .sectionTitle {
+        font-size: 6vw !important;
+    }
+
     .legendCarousel {
         font-size: 2vw !important;
     }
@@ -15,6 +19,10 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .sectionTitle {
+        font-size: 6vw !important;
+    }
+
     .legendCarousel {
         font-size: 2vw !important;
     }
@@ -22,6 +30,10 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    .sectionTitle {
+        font-size: 6vw !important;
+    }
+
     .legendCarousel {
         font-size: 2vw !important;
     }

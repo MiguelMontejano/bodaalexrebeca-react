@@ -44,7 +44,7 @@ export function Galeria() {
                 </div>
                 <div>
                     <img className={`${styles.carouselFoto}`} alt="" src={besoApaisada} />
-                    <p className={`legend ${styles.legendCarousel}`}>"Tu enfoque determina tu realidad."</p>
+                    <p className={`legend ${styles.legendCarousel}`}>"Hay otras maneras de volar, no solo con escobas mágicas."</p>
                 </div>
             </Carousel>
         </div>
