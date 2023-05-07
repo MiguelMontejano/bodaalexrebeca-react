@@ -22,7 +22,9 @@ import { Galeria } from './components/galeria/Galeria';
 import cisne from './assets/imgs/cisne.jpg';
 import bici from './assets/imgs/bici.jpeg';
 import logo from './assets/imgs/logo-mio.png';
+import mirador from './assets/imgs/mirador.jpg'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
+import { MasInfo } from './components/mas-info/MasInfo';
 
 function App() {
   return (
@@ -30,12 +32,16 @@ function App() {
       <img src={logo} className="w-3 mt-3" alt=""/>
       <Home />
       <img src={bici} className="w-9" alt=""/>
-      <AnimationOnScroll animateIn='animate__slideInLeft' delay={200} animateOnce={true} animatePreScroll={false}>
+      <AnimationOnScroll className='w-12' animateIn='animate__slideInLeft' delay={200} animateOnce={true} animatePreScroll={false}>
         <LugarCeremonia />
       </AnimationOnScroll>
       <img src={cisne} className="w-9" alt=""/>
-      <AnimationOnScroll animateIn='animate__slideInLeft' delay={200} animateOnce={true} animatePreScroll={false} >
+      <AnimationOnScroll className='w-12' animateIn='animate__slideInLeft' delay={200} animateOnce={true} animatePreScroll={false} >
         <ConfirmarAsistencia />
+      </AnimationOnScroll>
+      <img src={mirador} className="mt-4 w-9" alt=""/>
+      <AnimationOnScroll className='w-12' animateIn='animate__slideInLeft' delay={200} animateOnce={true} animatePreScroll={false} >
+        <MasInfo />
       </AnimationOnScroll>
       <Galeria />
     </div>

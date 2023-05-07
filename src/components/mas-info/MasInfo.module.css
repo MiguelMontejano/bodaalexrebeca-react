@@ -1,0 +1,125 @@
+.masInfoContainer {
+    background-color: #f3fbff;
+}
+
+.sectionTitle {
+    font-size: 11vw !important;
+}
+
+.ibanContainer {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cardsContainer {
+    flex-direction: column;
+}
+
+.cardText {
+    font-size: 7vw;
+}
+
+.phoneNumber {
+    font-size: 6vw;
+}
+
+.contactCard {
+    width: 70%;
+    height: 15vh;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow:
+            1px 0.3px 2.2px rgba(0, 0, 0, 0.02),
+            2.5px 0.7px 5.3px rgba(0, 0, 0, 0.028),
+            4.6px 1.3px 10px rgba(0, 0, 0, 0.035),
+            8.3px 2.2px 17.9px rgba(0, 0, 0, 0.042),
+            15.5px 4.2px 33.4px rgba(0, 0, 0, 0.05),
+            37px 10px 80px rgba(0, 0, 0, 0.07);
+    
+}
+
+.rebecaImg {
+    width: 13vw;
+}
+
+.alexImg {
+    width: 14vw;
+}
+
+@media only screen and (min-width: 768px) {
+    .sectionTitle {
+        font-size: 6.5vw !important;
+    }
+
+    .ibanContainer {
+        font-size: 4.5vw !important;
+    }
+
+    .cardsContainer {
+        flex-direction: column;
+    }
+
+    .contactCard {
+        width: 60%;
+        height: 22vh !important;
+    }
+
+    .cardText {
+        font-size: 7.5vw !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .sectionTitle {
+        font-size: 5vw !important;
+    }
+
+    .cardsContainer {
+        flex-direction: row;
+    }
+
+    .contactCard {
+        height: 22vw !important;
+    }
+
+    .ibanContainer {
+        font-size: 5vw !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .sectionTitle {
+        font-size: 4vw !important;
+    }
+
+    .cardsContainer {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .cardText {
+        font-size: 5vw !important;
+    }
+
+    .phoneNumber {
+        font-size: 4vw  !important;
+    }
+
+    .contactCard {
+        width: 46%;
+        height: 40vh !important;
+    }
+
+    .ibanContainer {
+        font-size: 3.5vw !important;
+    }
+
+    .rebecaImg {
+        width: 9vw;
+    }
+    
+    .alexImg {
+        width: 9vw;
+    }
+}

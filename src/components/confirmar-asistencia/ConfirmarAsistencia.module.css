@@ -1,3 +1,7 @@
+.confirmarAsistenciaContainer {
+    background-color: #f3fbff;
+}
+
 .sectionTitle {
     font-size: 10vw;
 }
@@ -44,11 +48,11 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .sectionTitle {
-        font-size: 2.2vw;
+        font-size: 5.2vw;
     }
 
     .sectionText {
-        font-size: 1.9vw;
+        font-size: 2.3vw;
     }
 
     .formBtn {
