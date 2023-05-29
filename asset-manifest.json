@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/bodaalexrebeca-react/static/css/main.ce533345.css",
-    "main.js": "/bodaalexrebeca-react/static/js/main.52b540d1.js",
-    "static/media/sky-apaisada-edit.jpg": "/bodaalexrebeca-react/static/media/sky-apaisada-edit.e8af946b04b8475b551d.jpg",
-    "static/media/beso-apaisada-edit.jpg": "/bodaalexrebeca-react/static/media/beso-apaisada-edit.58110b884ca6a2bec6e9.jpg",
-    "static/media/blanco-apaisada-edit.jpg": "/bodaalexrebeca-react/static/media/blanco-apaisada-edit.02a22778fb2b12bab8e4.jpg",
-    "static/media/mar-apaisada-edit.jpg": "/bodaalexrebeca-react/static/media/mar-apaisada-edit.2d19db6bfc72394e9237.jpg",
-    "static/media/mirador.jpg": "/bodaalexrebeca-react/static/media/mirador.c4ac1689a5a744bca5be.jpg",
-    "static/media/bici.jpeg": "/bodaalexrebeca-react/static/media/bici.d94517b02edebd4210c4.jpeg",
-    "static/media/apaisada_grecia.PNG": "/bodaalexrebeca-react/static/media/apaisada_grecia.5633f3022746c7179944.PNG",
-    "static/media/primeicons.svg": "/bodaalexrebeca-react/static/media/primeicons.e1441b135b3ca9ad643c.svg",
-    "static/media/cisne.jpg": "/bodaalexrebeca-react/static/media/cisne.1b7ead5e0fec4924267d.jpg",
-    "static/media/primeicons.eot": "/bodaalexrebeca-react/static/media/primeicons.d44157bdfa026dc877af.eot",
-    "static/media/primeicons.woff": "/bodaalexrebeca-react/static/media/primeicons.10d3152104f2208ac82a.woff",
-    "static/media/primeicons.ttf": "/bodaalexrebeca-react/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
-    "static/media/logo-mio.png": "/bodaalexrebeca-react/static/media/logo-mio.b2e90bcac977c06b3ea0.png",
-    "static/media/primeicons.woff2": "/bodaalexrebeca-react/static/media/primeicons.78172950b335ccdb94e2.woff2",
-    "static/media/boy.svg": "/bodaalexrebeca-react/static/media/boy.09ce92236c040a158a58e2eba3152430.svg",
-    "static/media/girl.svg": "/bodaalexrebeca-react/static/media/girl.a9ca161eb0e03229be8dfcc9a4347d49.svg",
-    "index.html": "/bodaalexrebeca-react/index.html",
-    "main.ce533345.css.map": "/bodaalexrebeca-react/static/css/main.ce533345.css.map",
-    "main.52b540d1.js.map": "/bodaalexrebeca-react/static/js/main.52b540d1.js.map"
+    "main.css": "/static/css/main.20c66763.css",
+    "main.js": "/static/js/main.73ca3831.js",
+    "static/media/sky-apaisada-edit.jpg": "/static/media/sky-apaisada-edit.e8af946b04b8475b551d.jpg",
+    "static/media/beso-apaisada-edit.jpg": "/static/media/beso-apaisada-edit.58110b884ca6a2bec6e9.jpg",
+    "static/media/blanco-apaisada-edit.jpg": "/static/media/blanco-apaisada-edit.02a22778fb2b12bab8e4.jpg",
+    "static/media/mar-apaisada-edit.jpg": "/static/media/mar-apaisada-edit.2d19db6bfc72394e9237.jpg",
+    "static/media/mirador.jpg": "/static/media/mirador.c4ac1689a5a744bca5be.jpg",
+    "static/media/bici.jpeg": "/static/media/bici.d94517b02edebd4210c4.jpeg",
+    "static/media/apaisada_grecia.PNG": "/static/media/apaisada_grecia.5633f3022746c7179944.PNG",
+    "static/media/primeicons.svg": "/static/media/primeicons.e1441b135b3ca9ad643c.svg",
+    "static/media/cisne.jpg": "/static/media/cisne.1b7ead5e0fec4924267d.jpg",
+    "static/media/primeicons.eot": "/static/media/primeicons.d44157bdfa026dc877af.eot",
+    "static/media/primeicons.woff": "/static/media/primeicons.10d3152104f2208ac82a.woff",
+    "static/media/primeicons.ttf": "/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
+    "static/media/logo-mio.png": "/static/media/logo-mio.b2e90bcac977c06b3ea0.png",
+    "static/media/primeicons.woff2": "/static/media/primeicons.78172950b335ccdb94e2.woff2",
+    "static/media/boy.svg": "/static/media/boy.09ce92236c040a158a58e2eba3152430.svg",
+    "static/media/girl.svg": "/static/media/girl.a9ca161eb0e03229be8dfcc9a4347d49.svg",
+    "index.html": "/index.html",
+    "main.20c66763.css.map": "/static/css/main.20c66763.css.map",
+    "main.73ca3831.js.map": "/static/js/main.73ca3831.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce533345.css",
-    "static/js/main.52b540d1.js"
+    "static/css/main.20c66763.css",
+    "static/js/main.73ca3831.js"
   ]
 }
