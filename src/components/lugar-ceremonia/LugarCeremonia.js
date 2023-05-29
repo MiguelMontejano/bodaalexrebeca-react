@@ -10,7 +10,7 @@ export function LugarCeremonia() {
             <i className={`pi pi-map section-icon`}></i>
             <div className={`${styles.LugarText} font-bold`}>Lugar de la ceremonia</div>
             <div className={`${styles.FincaText}`}>Finca Prados Moros, Guadarrama</div>
-            <div className={`${styles.HoraText}`}>17:30 p.m.</div>
+            <div className={`${styles.HoraText}`}>15 de septiembre 2023 - 17:30 p.m.</div>
             <div onClick={() => openInNewTab("https://goo.gl/maps/G6h8WogChinmm8TJ6")} className={`p-2 ${styles.verMapaContainer}`}>Ver en el mapa</div>
         </div>
     )
