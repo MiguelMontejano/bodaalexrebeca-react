@@ -8,6 +8,7 @@ import besoApaisada from '../../assets/imgs/juntos/beso-apaisada-edit.jpg';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import styles from './Galeria.module.css'
+import './galeria.css';
 
 export function Galeria() {
 /*     function onChange() {
